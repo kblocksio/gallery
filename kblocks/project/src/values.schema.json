@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The title of the project"
+    },
+    "description": {
+      "type": "string",
+      "description": "The description of the project"
+    },
+    "icon": {
+      "type": "string",
+      "description": "The icon of the project. This can be either a heroicon in the format heroicon:// or a lucidicon name or an SVG of the icon.\n\n@ui kblocks.io/textarea"
+    },
+    "objects": {
+      "type": "array",
+      "description": "An array of block URIs",
+      "items": {
+        "type": "string",
+        "description": "The URI of the block"
+      }
+    }
+  }
+}
